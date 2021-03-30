@@ -16,7 +16,7 @@ const App = () => {
       case'WITHDRAW':
       return{
         ...state,
-        total: state.total - action.payload,
+        total : state.total - action.payload
          
       }
 
