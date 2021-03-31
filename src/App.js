@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 const App = () => {
-  function reducer(state,action){
+  const reducer=(state,action)=>{
     switch(action.type){
       case'DEPOSIT':
       return{
